@@ -14,11 +14,9 @@ public class Mutex
         	tList.add(new Thread(new MutexThread(commonResource)));
         	tList.get(i).setName("Поток "+ i);
         	tList.get(i).start();
-        }
-        
-        for (int i = 0; i < tCount; i++){
         	try {
 				tList.get(i).join();
+				System.out.println("Завершен: " + tList.get(i).getName());
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
