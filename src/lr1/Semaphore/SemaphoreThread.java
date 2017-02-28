@@ -1,7 +1,9 @@
-package lr1;
+package lr1.Semaphore;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.ThreadLocalRandom;
+
+import lr1.CommonResource;
 
 public class SemaphoreThread implements Runnable{
 

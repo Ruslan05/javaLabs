@@ -1,7 +1,9 @@
-package lr1;
+package lr1.Semaphore;
 
 import java.util.ArrayList;
 import java.util.concurrent.Semaphore;
+
+import lr1.CommonResource;
 
 public class SemaphoreExample {
 

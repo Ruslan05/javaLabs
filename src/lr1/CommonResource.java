@@ -1,5 +1,5 @@
 package lr1;
 
 public class CommonResource {
-	int x=0;
+	public int x=0;
 }

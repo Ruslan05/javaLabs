@@ -1,6 +1,8 @@
-package lr1;
+package lr1.Mutex;
 
 import java.util.ArrayList;
+
+import lr1.CommonResource;
 
 public class Mutex 
 {
